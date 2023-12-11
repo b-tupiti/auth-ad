@@ -1,4 +1,6 @@
 from django.shortcuts import render
+from django.templatetags.static import static
 
 def login(request):
-    return render(request, 'auth/login.html')
+    background_image_url = static('adauth/img/bg.jpg')
+    return render(request, 'adauth/login.html', {'background_image_url': background_image_url})
