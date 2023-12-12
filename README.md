@@ -1,2 +1,2 @@
 # auth-ad
-A test django app that uses AD and LDAP authentication.
+A django app to test AD Authentication through LDAP. 
